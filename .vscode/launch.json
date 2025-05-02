@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations":[
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "localhost",
+            "environmentType": "OnPrem",
+            "server": "http://localhost",
+            "port": 6049,
+            "serverInstance": "BC190",
+            "authentication": "Windows",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "default",
+            "usePublicURLFromServer": true,
+            "schemaUpdateMode": "Recreate"
+        }
+    ]
+}
